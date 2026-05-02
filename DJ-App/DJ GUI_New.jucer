@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nUQESN" name="DJ GUI_New" projectType="guiapp" useAppConfig="0"
+              displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="I0CikQ" name="DJ GUI_New">
+    <GROUP id="{49E6DAAA-6594-74A1-E84E-3C76943DBDA4}" name="Source">
+      <GROUP id="{93A7D2EC-B4DC-5F62-CB81-2225BFC06146}" name="View">
+        <FILE id="KcUjlD" name="DeckView.cpp" compile="1" resource="0" file="Source/View/DeckView.cpp"/>
+        <FILE id="xKGxXW" name="DeckView.h" compile="0" resource="0" file="Source/View/DeckView.h"/>
+        <FILE id="qAlGTr" name="MainView.cpp" compile="1" resource="0" file="Source/View/MainView.cpp"/>
+        <FILE id="lxnfAQ" name="MainView.h" compile="0" resource="0" file="Source/View/MainView.h"/>
+        <FILE id="O2DnOO" name="MixerView.cpp" compile="1" resource="0" file="Source/View/MixerView.cpp"/>
+        <FILE id="TwEbhT" name="MixerView.h" compile="0" resource="0" file="Source/View/MixerView.h"/>
+        <FILE id="kuiNX8" name="PlaylistView.cpp" compile="1" resource="0"
+              file="Source/View/PlaylistView.cpp"/>
+        <FILE id="m8IGvV" name="PlaylistView.h" compile="0" resource="0" file="Source/View/PlaylistView.h"/>
+      </GROUP>
+      <GROUP id="{CBCB8769-7D1E-34D9-24F6-74DD45A55344}" name="Controller">
+        <FILE id="qy4QUv" name="DJController.cpp" compile="1" resource="0"
+              file="Source/Controller/DJController.cpp"/>
+        <FILE id="FejEWY" name="DJController.h" compile="0" resource="0" file="Source/Controller/DJController.h"/>
+      </GROUP>
+      <GROUP id="{F6A60F09-0A33-88CA-F76C-08816291A438}" name="Model">
+        <FILE id="z6NS42" name="AudioEngine.cpp" compile="1" resource="0" file="Source/Model/AudioEngine.cpp"/>
+        <FILE id="a9NZ6J" name="AudioEngine.h" compile="0" resource="0" file="Source/Model/AudioEngine.h"/>
+        <FILE id="IFH2iK" name="PlaylistManager.cpp" compile="1" resource="0"
+              file="Source/Model/PlaylistManager.cpp"/>
+        <FILE id="gV8cYo" name="PlaylistManager.h" compile="0" resource="0"
+              file="Source/Model/PlaylistManager.h"/>
+        <FILE id="vjsNJw" name="Track.cpp" compile="1" resource="0" file="Source/Model/Track.cpp"/>
+        <FILE id="Sn9s59" name="Track.h" compile="0" resource="0" file="Source/Model/Track.h"/>
+      </GROUP>
+      <GROUP id="{73342836-34D8-1DC5-1376-D12A040DDF30}" name="Components">
+        <FILE id="B8IP28" name="JogWheel.cpp" compile="1" resource="0" file="Source/Components/JogWheel.cpp"/>
+        <FILE id="hz4Ijg" name="JogWheel.h" compile="0" resource="0" file="Source/Components/JogWheel.h"/>
+        <FILE id="mP3HXI" name="ModernButton.cpp" compile="1" resource="0"
+              file="Source/Components/ModernButton.cpp"/>
+        <FILE id="VGS0Dx" name="ModernButton.h" compile="0" resource="0" file="Source/Components/ModernButton.h"/>
+        <FILE id="lLYyts" name="ModernSlider.cpp" compile="1" resource="0"
+              file="Source/Components/ModernSlider.cpp"/>
+        <FILE id="xiqOFq" name="ModernSlider.h" compile="0" resource="0" file="Source/Components/ModernSlider.h"/>
+        <FILE id="sSEl11" name="VUMeter.cpp" compile="1" resource="0" file="Source/Components/VUMeter.cpp"/>
+        <FILE id="jf5JuZ" name="VUMeter.h" compile="0" resource="0" file="Source/Components/VUMeter.h"/>
+        <FILE id="FADXHw" name="WaveformView.cpp" compile="1" resource="0"
+              file="Source/Components/WaveformView.cpp"/>
+        <FILE id="LEtQDp" name="WaveformView.h" compile="0" resource="0" file="Source/Components/WaveformView.h"/>
+      </GROUP>
+      <FILE id="p6mQB5" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="SnA2Fv" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="hqIxgA" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="aLYOmU" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="AWRrsI" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="ARMwUt" name="DJDisk.cpp" compile="1" resource="0" file="Source/DJDisk.cpp"/>
+      <FILE id="FFviIZ" name="DJDisk.h" compile="0" resource="0" file="Source/DJDisk.h"/>
+      <FILE id="pJgQ33" name="VerticalGradientMeter.h" compile="0" resource="0"
+            file="Source/VerticalGradientMeter.h"/>
+      <FILE id="xR7yfF" name="VerticalGradientMeter.cpp" compile="1" resource="0"
+            file="Source/VerticalGradientMeter.cpp"/>
+      <FILE id="HWZ8C5" name="ButtonCellComponent.cpp" compile="1" resource="0"
+            file="Source/ButtonCellComponent.cpp"/>
+      <FILE id="GG5W6g" name="ButtonCellComponent.h" compile="0" resource="0"
+            file="Source/ButtonCellComponent.h"/>
+      <FILE id="ujdSCF" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="yBuBiN" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="nyyukV" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="nSWJeM" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="lNalJP" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="Txbzo7" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_MP3AUDIOFORMAT="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject" defines="JUCE_SILENCE_XCODE_15_LINKER_WARNING"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject" defines="JUCE_SILENCE_XCODE_15_LINKER_WARNING"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
